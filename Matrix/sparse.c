@@ -1,13 +1,11 @@
-//8. to print the diagonal of a matrix.
+//13. check whether a matrix is sparse or not
 #include<stdio.h>
 void main()
 {
-    int i,j,r,c;
+    int i,j,r,c,count=0;
     printf("Enter the No. of Row & column = ");
     scanf("%d%d",&r,&c);
     int a[r][c];
-    if(r==c)
-    {
     //input
     for(i=0;i<r;i++)
     {
@@ -27,20 +25,17 @@ void main()
          }
          printf("\n");
     }
-    //diagonal
-   printf("\nDiagonal Matrix = \n");
+    //checking
     for(i=0;i<r;i++)
     {
         for(j=0;j<c;j++)
          {
-            if(i==j)
-              printf("%d ",a[i][j]);
-            else
-              printf(" ");
+            if(a[i][j]==0 || a[i][j]==1)
+              count++;
          }
-         printf("\n");
     }
-  }
-  else
-   printf("It's Not Sq. Matrix so diagonal element can't be found");
+    if(count>(r*c)/2)
+      printf("Sparse Matrix ");
+    else
+      printf("NOT Sparse Matrix ");
 }

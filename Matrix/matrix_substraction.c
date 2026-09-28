@@ -1,4 +1,4 @@
-//4. matrix addition
+//4. matrix substraction
 #include<stdio.h>
 void main()
 {
