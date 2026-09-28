@@ -1,0 +1,30 @@
+INTEGER ARRAY :-
+
+1. WAP to take input into a integer array and print the array.
+2. Calculate to take input into a integer array and calculate the sum of the array element.
+3. Calculate the average of the array element.
+4. Print the above average element.
+5. Print the below average element.
+6. Find out the the maximum element within an array.
+7. Find out the the minimum element within an array.
+8. Find out the the second maximum element within an array.
+9. Find out the the second minimum element within an array.
+10. Write to print the even elements within an array.
+11. Write to print the odd elements within an array.
+12. Write to print the even index elements within an array.
+13. Write to print the odd index elements within an array.
+14. Find out the middle element within an array.
+15. Find out all elements except middle element within an array.
+16. Write a program to search an element within an array.(Linear Search Technique)
+17. Write a program to search an element within an array.(Binary Search Technique)
+18. Write a program to sort an array by using bubble sort technique. 
+19. Write a program to sort an array by using insertion sort technique.
+20. Write a program to sort an array by using selection sort technique.
+21. Write a program to sort an array by using modified bubble sort technique.
+22. Find out the mean element within an array.
+23. Find out the median element within an array.
+24. Find out the mode element within an array.
+25. Find out the standard deviation element within an array.
+26. Reverse of an array.
+27. Write a program to count the frequency of an array element.
+28. Alternative element even & odd.

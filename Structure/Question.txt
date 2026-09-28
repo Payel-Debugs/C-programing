@@ -1,0 +1,10 @@
+STRUCTURE :-
+
+1. WAP to create student struct with consist of roll no., name, three subs, marks, total, avg, grade,create a struct of end no. of students.
+2. Search a specific student record in respect of their roll no.
+3. Search a specific student record in respect of their name.
+4. Create a employee structure which consist of employee id, employee name, basic salary as input, calculate DA, TA, HRA, Gross salary, Pf and net salary and calculate the designation.
+5. Create structure called box that stores the length,breadth, height of a rectangular box, calculate the volume of n size and print the max volume within those box.
+6. create a structure called cone with radius and height of the cone, calculate the volume of cones of n times and find out the max volumes.
+7. Create a structure called point that consists of (X,Y) coordinate. Create a structure of n types and print second quadrates within the points.
+8. Create a structure called bank which consist of acc number,name and balance of a customer. Create a structure of n number of customers, if user press 1, specific users amount will be deposited and if the user press 0, then the specific users amount to be withdrawn.If the deposited amount less than or equals to 1000 then user can't withdraw the amount.
