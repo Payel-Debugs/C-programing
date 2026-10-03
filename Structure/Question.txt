@@ -6,5 +6,21 @@ STRUCTURE :-
 4. Create a employee structure which consist of employee id, employee name, basic salary as input, calculate DA, TA, HRA, Gross salary, Pf and net salary and calculate the designation.
 5. Create structure called box that stores the length,breadth, height of a rectangular box, calculate the volume of n size and print the max volume within those box.
 6. create a structure called cone with radius and height of the cone, calculate the volume of cones of n times and find out the max volumes.
-7. Create a structure called point that consists of (X,Y) coordinate. Create a structure of n types and print second quadrates within the points.
+7. Create a structure called point that consists of (X,Y) coordinate. Create a structure of n types and print second quadrates & fourth quadrates within the points.
 8. Create a structure called bank which consist of acc number,name and balance of a customer. Create a structure of n number of customers, if user press 1, specific users amount will be deposited and if the user press 0, then the specific users amount to be withdrawn.If the deposited amount less than or equals to 1000 then user can't withdraw the amount.
+9. Sort the student structure in descending order of their total marks.
+10. Sort the employee structure in descending order of their gross salary.
+11.Define a structure data type called struct line to hold the 2 components (m i.e. slope and c i.e. the y intercept) of a line. Define a structure data type called struct point to hold the 2 components (x and y) of a point. Input the components for 2 line type variables L1 and L2, and find the point of intersection of the lines. Store the point of intersection in a point type data and display the result.
+12. Define a structure data type called struct vector to hold the 3 components (x, y, z) of a vector. Input the components for 2 such vector type variables v1 and v2, and calculate the vector product (cross product) of those using a function called VecProduct( ). The function returns the product vector. Use another struct vector type variable called v3 to store the returned result.
+A vector v is defined as
+v⃗ = (î · x + ĵ · y + k̂ · z),
+where x, y, z are the magnitudes of the three components and î, ĵ, k̂ are unit vectors in three orthogonal directions.
+The vector product
+v⃗₃ = (î · x₃ + ĵ · y₃ + k̂ · z₃)
+of vectors:
+v⃗₁ = (î · x₁ + ĵ · y₁ + k̂ · z₁) and
+v⃗₂ = (î · x₂ + ĵ · y₂ + k̂ · z₂)
+is defined as v⃗₃ = v⃗₁ × v⃗₂, where:
+x₃ = y₁z₂ − z₁y₂,
+y₃ = z₁x₂ − x₁z₂,
+z₃ = x₁y₂ − y₁x₂ 
