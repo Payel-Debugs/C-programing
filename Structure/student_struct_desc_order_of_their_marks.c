@@ -28,6 +28,14 @@ void main()
      scanf("%d",&s[i].cs);
      s[i].t=s[i].Chem+s[i].math+s[i].phy+s[i].cs;
    }
+   //output
+   printf("------------------------------------------------------------\n");    
+   printf("Roll\tName\tChem\tMath\tPhy\tCS\tTotal\n");
+    printf("------------------------------------------------------------\n");
+    for(i=0;i<n;i++)
+    {
+        printf("%d\t\%s\t%d\t%d\t%d\t%d\t%d\n",s[i].roll_no,s[i].nm,s[i].Chem,s[i].math,s[i].phy,s[i].cs,s[i].t);
+    }
     //sorting
     struct student temp;
     for(i=0;i<n;i++)
@@ -45,11 +53,11 @@ void main()
     //output
     printf("Student details in descending order of total marks:\n");
     printf("------------------------------------------------------------\n");
-    printf("Roll No.\tName\tChem\tMath\tPhysics\tCS\tTotal\n");
+    printf("Roll\tName\tChem\tMath\tPhysics\tCS\tTotal\n");
     printf("------------------------------------------------------------\n");
     for(i=0;i<n;i++)
     {
-        printf("%d\t\t%s\t%d\t\t%d\t%d\t%d\t\t%d\n",s[i].roll_no,s[i].nm,s[i].Chem,s[i].math,s[i].phy,s[i].cs,s[i].t);
+        printf("%d\t%s\t%d\t%d\t%d\t%d\t%d\n",s[i].roll_no,s[i].nm,s[i].Chem,s[i].math,s[i].phy,s[i].cs,s[i].t);
     }
 
 }
