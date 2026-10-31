@@ -1,4 +1,4 @@
-//wap to convert a strimg lower to upper
+//wap to convert a string lower to upper
 #include<stdio.h>
 
 void main()
