@@ -1,0 +1,14 @@
+FUNCTION IMPORTANT NOTES :- 
+
+
+1. Function 1st Type :-(No return type,no parameter passing)
+Rule => input + process + output তিনটেই function এর মধ্যে হবে।
+
+2. Function 2nd Type :-(No return type,with parameter passing)
+Rule => input main() এর মধ্যে হবে এবং process + output function এর মধ্যে হবে।
+
+3. Function 3rd Type :-(With return type,but without parameter passing)
+Rule => input + process function এর মধ্যে হবে এবং output main() এর মধ্যে হবে।
+
+4. Function 4th Type :-(With both return type and parameter passing)
+Rule => input + output main() এর মধ্যে হবে এবং process function এর মধ্যে হবে।
