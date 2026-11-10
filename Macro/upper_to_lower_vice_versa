@@ -1,0 +1,12 @@
+//upper to lower or vice versa macro
+#include<stdio.h>
+#define p printf
+#define sc scanf
+#define check(a)  (a>=65 && a<=90)?a+32:(a>=97 && a<=122)?a-32:a    
+void main()
+{
+   char x;
+   p("Enter the Character = ");
+   sc("%c",&x);
+   p ("Character = %c",check(x));//calling
+}
